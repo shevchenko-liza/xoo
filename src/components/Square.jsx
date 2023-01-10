@@ -2,10 +2,9 @@ import React from 'react'
 import './Square.css'
 
 const Square = (props) => {
-    return(
+    return (
         <button className="square" onClick={props.onClick}>{props.value}
-            
-</button>
+        </button>
     );
-} 
+}
 export default Square
